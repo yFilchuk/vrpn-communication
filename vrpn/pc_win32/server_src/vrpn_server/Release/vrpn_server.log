@@ -1,0 +1,32 @@
+﻿Build started 2021-08-02 22:13:24.
+     1>Project "D:\WORK\hokong\vrpnCameraServer_Client\vrpn\server_src\vrpn_server.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\../pc_win32/server_src/vrpn_server/Release\vrpn_server.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Include" /I../../dtrack /I"C:\Program Files\National Instruments\NI-DAQ\Include" /I"C:/Program Files/SensAble/3DTouch/include" /I"C:/Program Files/SensAble/3DTouch/utilities/include" /I../../isense /I.. /I../quat /I../../Dtrack /I../../libfreespace/include /I"C:\Program Files\libusb-1.0\libusb" /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\../pc_win32/server_src/vrpn_server/Release/" /Fd".\../pc_win32/server_src/vrpn_server/Release/vc100.pdb" /FR".\../pc_win32/server_src/vrpn_server/Release\\" /Gd /TP /analyze- /errorReport:prompt TCPServer.cpp
+         TCPServer.cpp
+     1>TCPServer.cpp(159): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\work\hokong\vrpncameraserver_client\vrpn\server_src\tcpserver.cpp(97): warning C4715: 'TCPServer::createSocket' : not all control paths return a value
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\WORK\hokong\vrpnCameraServer_Client\vrpn\server_src\.\../pc_win32/server_src/vrpn_server/Release\vrpn_server.exe) does not match the Linker's OutputFile property value (D:\WORK\hokong\vrpnCameraServer_Client\Bin\vrpn_server.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\Bin\vrpn_server.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\sdk\cpp /LIBPATH:"C:\Program Files\boost\boost_1_34_1\lib" /MANIFEST /ManifestFile:".\../pc_win32/server_src/vrpn_server/Release\vrpn_server.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\../pc_win32/server_src/vrpn_server/Release/vrpn_server.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\../pc_win32/server_src/vrpn_server/Release\vrpn_server.lib" /MACHINE:X86 .\../pc_win32/server_src/vrpn_server/Release/TCPServer.obj
+         .\../pc_win32/server_src/vrpn_server/Release/vrpn.obj
+         .\../pc_win32/server_src/vrpn_server/Release/vrpn_Generic_server_object.obj
+         D:\WORK\hokong\vrpnCameraServer_Client\vrpn\quat\pc_win32\Release\quat.lib
+         D:\WORK\hokong\vrpnCameraServer_Client\vrpn\pc_win32\Release\vrpn.lib
+         D:\WORK\hokong\vrpnCameraServer_Client\vrpn\pc_win32\server_src\timecode_generator\Release\timecode_generator.lib
+         D:\WORK\hokong\vrpnCameraServer_Client\vrpn\pc_win32\server_src\Release\vrpn_phantom.lib
+            Creating library .\../pc_win32/server_src/vrpn_server/Release\vrpn_server.lib and object .\../pc_win32/server_src/vrpn_server/Release\vrpn_server.exp
+         vrpn_server.vcxproj -> D:\WORK\hokong\vrpnCameraServer_Client\vrpn\server_src\.\../pc_win32/server_src/vrpn_server/Release\vrpn_server.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\Bin\vrpn_server.exe;#1" /manifest .\../pc_win32/server_src/vrpn_server/Release\vrpn_server.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\../pc_win32/server_src/vrpn_server/Release/vrpn_server.bsc" .\../pc_win32/server_src/vrpn_server/Release\TCPServer.sbr .\../pc_win32/server_src/vrpn_server/Release\vrpn.sbr .\../pc_win32/server_src/vrpn_server/Release\vrpn_Generic_server_object.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\../pc_win32/server_src/vrpn_server/Release\vrpn_server.unsuccessfulbuild".
+         Touching ".\../pc_win32/server_src/vrpn_server/Release\vrpn_server.lastbuildstate".
+     1>Done Building Project "D:\WORK\hokong\vrpnCameraServer_Client\vrpn\server_src\vrpn_server.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.18

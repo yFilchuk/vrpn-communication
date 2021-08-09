@@ -1,0 +1,9 @@
+﻿Build started 2021-08-03 20:50:11.
+     1>Project "D:\WORK\hokong\vrpnCameraServer_Client\vrpn\server_src\timecode_generator_server\timecode_generator.vcxproj" on node 2 (clean target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\../../pc_win32/server_src/timecode_generator/Debug\timecode_generator.lastbuildstate".
+     1>Done Building Project "D:\WORK\hokong\vrpnCameraServer_Client\vrpn\server_src\timecode_generator_server\timecode_generator.vcxproj" (clean target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.00

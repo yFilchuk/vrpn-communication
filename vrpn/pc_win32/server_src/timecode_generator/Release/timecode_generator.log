@@ -1,0 +1,19 @@
+﻿Build started 2021-07-26 1:08:31.
+     1>Project "D:\WORK\hokong\vrpnCameraServer_Client\vrpn\server_src\timecode_generator_server\timecode_generator.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\../../pc_win32/server_src/timecode_generator/Release\timecode_generator.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Include" /I..\.. /I../../../Adrienne/AEC_DLL /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\../../pc_win32/server_src/timecode_generator/Release/" /Fd".\../../pc_win32/server_src/timecode_generator/Release/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt vrpn_timecode_generator.cpp
+         vrpn_timecode_generator.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\../../pc_win32/server_src/timecode_generator/Release\timecode_generator.lib" /NOLOGO .\../../pc_win32/server_src/timecode_generator/Release/vrpn_timecode_generator.obj
+     1>vrpn_timecode_generator.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         timecode_generator.vcxproj -> D:\WORK\hokong\vrpnCameraServer_Client\vrpn\server_src\timecode_generator_server\.\../../pc_win32/server_src/timecode_generator/Release\timecode_generator.lib
+       FinalizeBuildStatus:
+         Deleting file ".\../../pc_win32/server_src/timecode_generator/Release\timecode_generator.unsuccessfulbuild".
+         Touching ".\../../pc_win32/server_src/timecode_generator/Release\timecode_generator.lastbuildstate".
+     1>Done Building Project "D:\WORK\hokong\vrpnCameraServer_Client\vrpn\server_src\timecode_generator_server\timecode_generator.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.43

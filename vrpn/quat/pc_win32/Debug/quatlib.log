@@ -1,0 +1,9 @@
+﻿Build started 2021-08-03 20:50:11.
+     1>Project "D:\WORK\hokong\vrpnCameraServer_Client\vrpn\quat\quatlib.vcxproj" on node 2 (clean target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\pc_win32\Debug\quatlib.lastbuildstate".
+     1>Done Building Project "D:\WORK\hokong\vrpnCameraServer_Client\vrpn\quat\quatlib.vcxproj" (clean target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.01

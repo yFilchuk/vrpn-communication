@@ -1,0 +1,27 @@
+﻿Build started 2021-07-31 23:16:46.
+     1>Project "D:\WORK\hokong\vrpnCameraServer_Client\vrpn\quat\quatlib.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\pc_win32\Release\quatlib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\pc_win32\Release/" /Fd".\pc_win32\Release/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt matrix.c quat.c vector.c xyzquat.c
+         matrix.c
+         quat.c
+         vector.c
+         xyzquat.c
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(D:\WORK\hokong\vrpnCameraServer_Client\vrpn\quat\.\pc_win32\Release\quatlib.lib) does not match the Library's OutputFile property value (D:\WORK\hokong\vrpnCameraServer_Client\vrpn\quat\pc_win32\Release\quat.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(quatlib) does not match the Library's OutputFile property value (quat). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"pc_win32\Release\quat.lib" /NOLOGO .\pc_win32\Release/matrix.obj
+         .\pc_win32\Release/quat.obj
+         .\pc_win32\Release/vector.obj
+         .\pc_win32\Release/xyzquat.obj
+         quatlib.vcxproj -> D:\WORK\hokong\vrpnCameraServer_Client\vrpn\quat\.\pc_win32\Release\quatlib.lib
+       FinalizeBuildStatus:
+         Deleting file ".\pc_win32\Release\quatlib.unsuccessfulbuild".
+         Touching ".\pc_win32\Release\quatlib.lastbuildstate".
+     1>Done Building Project "D:\WORK\hokong\vrpnCameraServer_Client\vrpn\quat\quatlib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.28

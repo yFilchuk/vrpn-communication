@@ -1,0 +1,162 @@
+﻿Build started 2021-08-02 21:57:05.
+     1>Project "D:\WORK\hokong\vrpnCameraServer_Client\vrpn\vrpn.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\pc_win32/Release\vrpn.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Include" /I../dtrack /Iquat /I../isense /I../Dtrack /I../libfreespace/include /I"C:\Program Files\National Instruments\NI-DAQ\DAQmx ANSI C Dev\include" /I"C:\Program Files\National Instruments\NI-DAQ\Include" /IC:\sdk\cpp /I"C:\Program Files\boost\boost_1_34_1" /I./submodules/hidapi/hidapi /I"C:\Program Files\libusb-1.0\libusb" /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D _CRT_SECURE_NO_DEPRECATE /D VRPNDLL_NOEXPORTS /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\pc_win32/Release/" /Fd".\pc_win32/Release/vc100.pdb" /FR".\pc_win32/Release\\" /Gd /TP /analyze- /errorReport:prompt vrpn_3DConnexion.C vrpn_5DT16.C vrpn_ADBox.C vrpn_Analog.C vrpn_Analog_5dt.C vrpn_Analog_5dtUSB.C vrpn_Analog_Output.C vrpn_Analog_Radamec_SPI.C vrpn_Analog_USDigital_A2.C vrpn_CerealBox.C vrpn_DirectXFFJoystick.C vrpn_Event_Analog.C vrpn_Event_Mouse.C vrpn_FunctionGenerator.C vrpn_GlobalHapticsOrb.C vrpn_ImmersionBox.C vrpn_Joylin.C vrpn_Joywin32.C vrpn_LUDL.C vrpn_Magellan.C vrpn_NationalInstruments.C vrpn_Poser_Analog.C vrpn_Spaceball.C vrpn_Tng3.C vrpn_Tracker_AnalogFly.C vrpn_Tracker_ButtonFly.C vrpn_Tracker_DTrack.C vrpn_Tracker_Fastrak.C vrpn_Tracker_GameTrak.C vrpn_Tracker_Isotrak.C vrpn_Tracker_Liberty.C vrpn_Tracker_WiimoteHead.C vrpn_Tracker_isense.C vrpn_UDP_Analog.C vrpn_UDP_Button.C vrpn_UNC_Joystick.C vrpn_Wanda.C vrpn_Xkeys.C vrpn_Zaber.C vrpn_inertiamouse.C vrpn_nikon_controls.C vrpn_raw_sgibox.C
+         vrpn_3DConnexion.C
+         vrpn_5DT16.C
+         vrpn_ADBox.C
+         vrpn_Analog.C
+         vrpn_Analog_5dt.C
+         vrpn_Analog_5dtUSB.C
+         vrpn_Analog_Output.C
+         vrpn_Analog_Radamec_SPI.C
+         vrpn_Analog_USDigital_A2.C
+         vrpn_CerealBox.C
+         vrpn_DirectXFFJoystick.C
+         vrpn_Event_Analog.C
+         vrpn_Event_Mouse.C
+         vrpn_FunctionGenerator.C
+         vrpn_GlobalHapticsOrb.C
+         vrpn_ImmersionBox.C
+         vrpn_Joylin.C
+         vrpn_Joywin32.C
+         vrpn_LUDL.C
+         vrpn_Magellan.C
+         Generating Code...
+         Compiling...
+         vrpn_NationalInstruments.C
+         vrpn_Poser_Analog.C
+         vrpn_Spaceball.C
+         vrpn_Tng3.C
+         vrpn_Tracker_AnalogFly.C
+         vrpn_Tracker_ButtonFly.C
+         vrpn_Tracker_DTrack.C
+         vrpn_Tracker_Fastrak.C
+         vrpn_Tracker_GameTrak.C
+         vrpn_Tracker_Isotrak.C
+         vrpn_Tracker_Liberty.C
+         vrpn_Tracker_WiimoteHead.C
+         vrpn_Tracker_isense.C
+         vrpn_UDP_Analog.C
+         vrpn_UDP_Button.C
+     1>vrpn_UDP_Button.C(36): warning C4101: 'i' : unreferenced local variable
+         vrpn_UNC_Joystick.C
+         vrpn_Wanda.C
+         vrpn_Xkeys.C
+         vrpn_Zaber.C
+         vrpn_inertiamouse.C
+         Generating Code...
+         Compiling...
+         vrpn_nikon_controls.C
+         vrpn_raw_sgibox.C
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\pc_win32/Release\vrpn.lib" /NOLOGO .\pc_win32/Release/vrpn_3DConnexion.obj
+         .\pc_win32/Release/vrpn_3DMicroscribe.obj
+         .\pc_win32/Release/vrpn_3Space.obj
+         .\pc_win32/Release/vrpn_5DT16.obj
+         .\pc_win32/Release/vrpn_ADBox.obj
+         .\pc_win32/Release/vrpn_Analog.obj
+         .\pc_win32/Release/vrpn_Analog_5dt.obj
+         .\pc_win32/Release/vrpn_Analog_5dtUSB.obj
+         .\pc_win32/Release/vrpn_Analog_Output.obj
+         .\pc_win32/Release/vrpn_Analog_Radamec_SPI.obj
+         .\pc_win32/Release/vrpn_Analog_USDigital_A2.obj
+         .\pc_win32/Release/vrpn_Auxiliary_Logger.obj
+         .\pc_win32/Release/vrpn_BaseClass.obj
+         .\pc_win32/Release/vrpn_Button.obj
+         .\pc_win32/Release/vrpn_Button_NI_DIO24.obj
+         .\pc_win32/Release/vrpn_Button_USB.obj
+         .\pc_win32/Release/vrpn_CerealBox.obj
+         .\pc_win32/Release/vrpn_Connection.obj
+         .\pc_win32/Release/vrpn_Dial.obj
+         .\pc_win32/Release/vrpn_DirectXFFJoystick.obj
+         .\pc_win32/Release/vrpn_DirectXRumblePad.obj
+         .\pc_win32/Release/vrpn_dreamcheeky.obj
+         .\pc_win32/Release/vrpn_Dyna.obj
+         .\pc_win32/Release/vrpn_Event.obj
+         .\pc_win32/Release/vrpn_Event_Analog.obj
+         .\pc_win32/Release/vrpn_Event_Mouse.obj
+         .\pc_win32/Release/vrpn_FileConnection.obj
+         .\pc_win32/Release/vrpn_FileController.obj
+         .\pc_win32/Release/vrpn_Flock.obj
+         .\pc_win32/Release/vrpn_Flock_Parallel.obj
+         .\pc_win32/Release/vrpn_ForceDevice.obj
+         .\pc_win32/Release/vrpn_ForceDeviceServer.obj
+         .\pc_win32/Release/vrpn_Forwarder.obj
+         .\pc_win32/Release/vrpn_ForwarderController.obj
+         .\pc_win32/Release/vrpn_Freespace.obj
+         .\pc_win32/Release/vrpn_FunctionGenerator.obj
+         .\pc_win32/Release/vrpn_GlobalHapticsOrb.obj
+         .\pc_win32/Release/vrpn_HumanInterface.obj
+         .\pc_win32/Release/vrpn_Imager.obj
+         .\pc_win32/Release/vrpn_Imager_Stream_Buffer.obj
+         .\pc_win32/Release/vrpn_ImmersionBox.obj
+         .\pc_win32/Release/vrpn_inertiamouse.obj
+         .\pc_win32/Release/vrpn_Joylin.obj
+         .\pc_win32/Release/vrpn_Joywin32.obj
+         .\pc_win32/Release/vrpn_UDP_Button.obj
+         .\pc_win32/Release/vrpn_LamportClock.obj
+         .\pc_win32/Release/vrpn_Local_HIDAPI.obj
+         .\pc_win32/Release/vrpn_LUDL.obj
+         .\pc_win32/Release/vrpn_Magellan.obj
+         .\pc_win32/Release/vrpn_UDP_Analog.obj
+         .\pc_win32/Release/vrpn_Mutex.obj
+         .\pc_win32/Release/vrpn_NationalInstruments.obj
+         .\pc_win32/Release/vrpn_nikon_controls.obj
+         .\pc_win32/Release/vrpn_Poser.obj
+         .\pc_win32/Release/vrpn_Poser_Analog.obj
+         .\pc_win32/Release/vrpn_Poser_Tek4662.obj
+         .\pc_win32/Release/vrpn_raw_sgibox.obj
+         .\pc_win32/Release/vrpn_RedundantTransmission.obj
+         .\pc_win32/Release/vrpn_Serial.obj
+         .\pc_win32/Release/vrpn_Shared.obj
+         .\pc_win32/Release/vrpn_SharedObject.obj
+         .\pc_win32/Release/vrpn_Sound.obj
+         .\pc_win32/Release/vrpn_Spaceball.obj
+         .\pc_win32/Release/vrpn_Text.obj
+         .\pc_win32/Release/vrpn_Tng3.obj
+         .\pc_win32/Release/vrpn_Tracker.obj
+         .\pc_win32/Release/vrpn_Tracker_3DMouse.obj
+         .\pc_win32/Release/vrpn_Tracker_AnalogFly.obj
+         .\pc_win32/Release/vrpn_Tracker_ButtonFly.obj
+         .\pc_win32/Release/vrpn_Tracker_Crossbow.obj
+         .\pc_win32/Release/vrpn_Tracker_DTrack.obj
+         .\pc_win32/Release/vrpn_Tracker_Fastrak.obj
+         .\pc_win32/Release/vrpn_Tracker_GameTrak.obj
+         .\pc_win32/Release/vrpn_Tracker_isense.obj
+         .\pc_win32/Release/vrpn_Tracker_Isotrak.obj
+         .\pc_win32/Release/vrpn_Tracker_Liberty.obj
+         .\pc_win32/Release/vrpn_Tracker_MotionNode.obj
+         .\pc_win32/Release/vrpn_Tracker_NDI_Polaris.obj
+         .\pc_win32/Release/vrpn_Tracker_NovintFalcon.obj
+         .\pc_win32/Release/vrpn_Tracker_PhaseSpace.obj
+         .\pc_win32/Release/vrpn_Tracker_SpacePoint.obj
+         .\pc_win32/Release/vrpn_Tracker_TrivisioColibri.obj
+         .\pc_win32/Release/vrpn_Tracker_WiimoteHead.obj
+         .\pc_win32/Release/vrpn_UNC_Joystick.obj
+         .\pc_win32/Release/vrpn_VPJoystick.obj
+         .\pc_win32/Release/vrpn_Wanda.obj
+         .\pc_win32/Release/vrpn_WiiMote.obj
+         .\pc_win32/Release/vrpn_XInputGamepad.obj
+         .\pc_win32/Release/vrpn_Xkeys.obj
+         .\pc_win32/Release/vrpn_Zaber.obj
+     1>vrpn_Tracker_TrivisioColibri.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>vrpn_Tracker_PhaseSpace.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>vrpn_Tracker_MotionNode.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>vrpn_Tracker_isense.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>vrpn_LUDL.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>vrpn_DirectXFFJoystick.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         vrpn.vcxproj -> D:\WORK\hokong\vrpnCameraServer_Client\vrpn\.\pc_win32/Release\vrpn.lib
+       BscMake:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file ".\pc_win32/Release\vrpn.unsuccessfulbuild".
+         Touching ".\pc_win32/Release\vrpn.lastbuildstate".
+     1>Done Building Project "D:\WORK\hokong\vrpnCameraServer_Client\vrpn\vrpn.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.01
